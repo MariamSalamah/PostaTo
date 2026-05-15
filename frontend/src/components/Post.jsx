@@ -6,7 +6,7 @@ export default function Post({ post }) {
       <div className="card card-side bg-[#280948] text-white shadow-sm w-full rounded-xl cursor-pointer hover:scale-[1.02] transition-transform">
         <figure className="shrink-0" >
           <img
-            className="w-80 h-80 object-cover"
+            className="w-48 h-48 object-cover"
             src={post.imageUrl}
             alt={post.title}
             onError={(e) => {
