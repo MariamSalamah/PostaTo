@@ -2,6 +2,10 @@
 
 A simple full-stack blog application with a React + Vite frontend and an Express + MongoDB backend.
 
+🔗 **Live Demo:** [https://your-production-url.com](https://postato-blog.vercel.app/)
+
+---
+
 ## Features
 
 - User authentication (register + login) using JWT
@@ -17,8 +21,8 @@ A simple full-stack blog application with a React + Vite frontend and an Express
 
 ## Tech Stack
 
-- Frontend: React, Vite, React Router, TailwindCSS/DaisyUI
-- Backend: Express, Mongoose, JWT, bcrypt, CORS
+- **Frontend:** React, Vite, React Router, TailwindCSS/DaisyUI
+- **Backend:** Express, Mongoose, JWT, bcrypt, CORS
 
 ## Setup & Run
 
@@ -44,6 +48,7 @@ npm run dev
 ```
 
 Server routes:
+
 - `GET /api/posts` — list posts (public)
 - `GET /api/posts/:id` — post details (public)
 - `POST /api/posts` — create post (auth)
@@ -51,11 +56,11 @@ Server routes:
 - `DELETE /api/posts/:id` — delete post (auth)
 
 Auth routes:
+
 - `POST /api/auth/register`
 - `POST /api/auth/login`
 
 JWT is expected in the frontend as:
-
 `Authorization: Bearer <token>`
 
 ### 2) Frontend
@@ -84,10 +89,9 @@ npm run dev
 3. Create a post from `/create-post`.
 4. View posts on `/`.
 5. Open a post details page at `/posts/:id`.
-6. If you’re the post owner, you can edit or delete it.
+6. If you're the post owner, you can edit or delete it.
 
 ## Notes
 
 - Posts store `imageUrl` as a URL string (no file upload in this version).
 - The app uses `localStorage` to persist `token` and `user` on the client.
-
