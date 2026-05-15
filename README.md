@@ -1,4 +1,4 @@
-# Posta (Blog App)
+# Posta-To (Blog App)
 
 A simple full-stack blog application with a React + Vite frontend and an Express + MongoDB backend.
 
