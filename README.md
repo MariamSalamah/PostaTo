@@ -2,7 +2,7 @@
 
 A simple full-stack blog application with a React + Vite frontend and an Express + MongoDB backend.
 
-🔗 **Live Demo:** [https://your-production-url.com](https://postato-blog.vercel.app/)
+🔗 **Live Demo:** [https://postato-blog.vercel.app/](https://postato-blog.vercel.app/)
 
 ---
 
